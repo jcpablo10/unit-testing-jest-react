@@ -4,11 +4,13 @@
   "description": "Pruebas unitarias con Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "MIT",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.24",
     "jest": "^27.0.6"
   }
 }
